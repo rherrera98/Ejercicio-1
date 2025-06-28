@@ -78,3 +78,40 @@ h2 {
     text-align: left;
 }
 
+.seccion-beneficios {
+background-color: #ffffff;
+padding: 30px;
+margin-bottom: 40px;
+border-radius: 12px;
+box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+.seccion-beneficios h3 {
+font-size: 30px;
+color: #0066cc;
+margin-bottom: 25px;
+text-align: center;
+}
+.lista-beneficios {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+gap: 25px;
+}
+.beneficio {
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s ease;
+}
+.beneficio:hover {
+transform: translateY(-5px);
+}
+.beneficio h4 {
+font-size: 20px;
+color: #333;
+margin-bottom: 10px;
+}
+.beneficio p {
+font-size: 16px;
+color: #444;
+text-align: justify;
+}
